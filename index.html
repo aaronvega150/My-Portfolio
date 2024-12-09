@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="mediaquerie.css"/>
+    <title>My Portfolio</title>
+</head>
+<body>
+    <nav id="desktop-nav">
+      <div class="logo">Vega Ortega Enterprises</div>
+      <div>
+        <ul class="nav-links">
+            <li><a href="#About" class="nav__links" data-link>About</a></li>
+            <li><a href="#Personal Interest" class="nav__links" data-link>Personal Interest</a></li>
+            <li><a href="#Expertise" class="nav__links" data-link>Expertise</a></li>
+            <li><a href="#Projects" class="nav__links" data-link>Projects</a></li>
+            <li><a href="#Contact Form" class="nav__links" data-link>Contact Form</a></li>  
+        </ul>
+      </div>   
+    </nav>
+
+    <nav id="three-line-nav">
+      <div class="logo">Aaron Vega Ortega</div>
+      <div class="three-line-menu">
+        <div class="three-line-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="#About" data-link onclick="toggleMenu()">About</a></li>
+            <li><a href="#Personal Interest" data-link onclick="toggleMenu()">Personal Interest</a></li>
+            <li><a href="#Expertise" data-link onclick="toggleMenu()">Expertise</a></li>
+            <li><a href="#Projects" data-link onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#Contact Form" data-link onclick="toggleMenu()">Contact Form</a></li>
+        </div>
+      </div>
+    </nav>
+
+    <section id="profile">
+      <div class="section__pic-container">
+        <img class="profile-pic" src="./Media/Creator Picture.png" alt="Aaron's Profile Picture">
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, my name is</p>
+        <h class="title">Aaron Vega Ortega</h>
+        <p class="section__text__p1">Front and Back-end Developer</p>
+        <div class="socials-container">
+          <img class="icon" src="./Media/github.png" alt="Github Logo" onclick="location.href='https://github.com/aaronvega150?tab=repositories/'">
+        </div>
+      </div>
+    </section>
+    
+    <section id="About">
+        <p class="section__text__p1">More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+          <div class="section__pic-container">
+            <img src="./Media/AboutMe.png" 
+            alt="Profile picture" 
+            class="about-pic"
+            />
+          </div>
+        <div class="about-details-container">
+          <div class="about-container">
+            <div class="details-container"></div>
+          </div>
+        </div>
+        <div class="text-container">
+          <p>
+            My name is Aaron Vega Ortega and I am of Mexican descent, and a first-generation college student. I am a
+            Southern Connecticut State University alumni, majoring in Computer Science, and Minoring in Music.
+            My goal in life is to become someone who is capable of overcoming his hardships, no matter how impossible it may seem.
+          </p>
+        </div>
+    </section>
+
+    <section id="Personal Interest">
+      <p class="section__text__p1">These are my</p>
+      <h1 class="title">Personal Interest</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img src="./Media/Guitar.png" alt="Interest Picture" class="about-pic">
+        </div>
+        <div class="text-container">
+          <lu>
+            <li>Music: Passionate about listening and playing music. Learning to improve guitar skills. </li>
+            <li>Gaming: Passionate about video games, and planning on creating a game with friends.</li>
+            <li>Cooking: Proficient in the art of cooking, learning to improve.</li>
+            <li>Technology: Interested in looking into arduino, to learn how to create small gadgets and learn how to code in arduino.</li>
+          </lu>
+      </div>
+    </section>
+
+    <section id="Expertise">
+      <p class="section__text__p1">Explore my</p>
+      <h1 class="title">Expertise</h1>
+      <div class="experience-details-container">
+        <div class="about-container">
+          <div class="details-container">
+            <h2 class="experience-sub-title">FrontEnd Development
+            <div class="article-container">
+              <article>
+                <img src="./Media/checkmark.png" alt="experience icon" class="icon"/> <br>
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="./Media/checkmark.png" alt="experience icon" class="icon"/>
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="./Media/checkmark.png" alt="experience icon" class="icon"/>
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Basic</p>
+                </div>
+              </h2>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">BackEnd Development
+            <div class="article-container">
+              <article>
+                <img src="./Media/checkmark.png" alt="experience icon" class="icon"/>
+                <div>
+                  <h3>MySQL</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img src="./Media/checkmark.png" alt="experience icon" class="icon"/>
+                <div>
+                  <h3>Node JS</h3>
+                  <p>Basic</p>
+                </div>
+              </h2>
+              </article>
+            </div>
+          </div>
+        </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Object-Oriented
+            <div class="article-container">
+              <article>
+                <img src="./Media/checkmark.png" alt="experience icon" class="icon"/>
+                <div>
+                  <h3>Python</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="./Media/checkmark.png" alt="experience icon" class="icon"/>
+                <div>
+                  <h3>Java</h3>
+                  <p>Basic</p>
+                </div>
+              </h2>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-container">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./Media/TheQuiz.png" alt="Project1" class="project-img">
+          </div>
+          <h2 class="experience-sub-title project-title">Project One
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" 
+            onclick="location.href='https://github.com/aaronvega150/The-Quiz'">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn" 
+            onclick="location.href='https://aaronvega150.github.io/The-Quiz/'">
+              Live Demo
+            </button>
+          </div>
+          </h2>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <section id="Contact Form">
+      <h1 class="title">Contact Form</h1>
+      <form action="mailto:aaronvega886@gmail.com" method="post" enctype="text/plain">
+      <input type="text" name="first" placeholder="First Name" autocomplete="off" required>
+      <input type="text" name="last" placeholder="Last Name" autocomplete="off" required>
+      <input type="email" name="email" placeholder="Email Address" autocomplete="off" required>
+      <textarea rows="5" cols="60" name="message" placeholder="Enter Text" autocomplete="off" required></textarea>
+      <button class="form-button" type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
